@@ -1,0 +1,71 @@
+/* src/App.css or a separate CSS file */
+
+/* Reset some default styles */
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire app */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #007acc;
+  color: #fff;
+}
+
+/* Todo List container */
+.todo-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Todo Element styles */
+.todo-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-element:last-child {
+  border-bottom: none;
+}
+
+.todo-element.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.todo-element.pending {
+  font-weight: bold;
+  color: #007acc;
+}
+
+/* Button styles */
+button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
